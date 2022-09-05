@@ -1,0 +1,191 @@
+body{
+    background: #EDF1FF;
+}
+
+p{
+    text-align: justify;
+    font-family: 'Heebo', sans-serif;
+}
+
+header{
+    background-color: rgb(0, 81, 128);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+}
+
+.header-name{
+    color: white;
+    font-family: 'Contrail One', cursive;
+    font-size: 50px;
+
+}
+
+header nav li{
+    display: inline-block;
+    color: rgb(230, 200, 200);
+    padding: 0px 10px;
+}
+
+h1{
+    font-size:60px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 500;
+}
+
+.languages{
+    display: table;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.hobbies{
+    display: table;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.about{
+    display: inline-block;
+    padding: 50px;
+}
+
+.introduction{
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    margin-top: 50px;
+    padding-bottom: 300px;
+    padding-top: 200px;
+    text-align: center;
+
+    padding-left: 60%;
+    padding-right: 10%;
+}
+
+
+.title{
+    margin-top: 0px;
+}
+
+
+.link{
+    color: rgb(230, 200, 200);
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+}
+
+.link::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    transition: width .3s;
+    background-color: white;
+}
+
+.link:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
+
+.link:hover{
+    color: white;
+}
+
+
+
+
+
+
+
+.container{
+    width: 80%;
+    margin: 50px auto;
+}
+
+#contactMe{
+    text-align: center;
+}
+
+.email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.email p{
+    text-decoration: underline;
+}
+
+.contact-box{
+    display: flex;
+}
+
+.contact-left{
+    flex-basis: 50%;
+    padding: 40px 60px;
+    background: white;
+}
+
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background:#FFFDD0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-row .input-group{
+    flex-basis: 45%;
+}
+
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    outline: none;
+}
+
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+label{
+    margin-bottom: 6px;
+    display: block;
+}
+
+button{
+    width: 100px;
+    border: none;
+    outline: none;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    background: white;
+    box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.submit-button{
+    flex-basis: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
